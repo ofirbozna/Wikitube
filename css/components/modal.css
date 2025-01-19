@@ -1,0 +1,24 @@
+.history-modal{
+    align-items: center;
+    text-align: center;
+    background-color:  #e99f4c;
+    border:2px solid #de5499;
+    color:#f2ebe9 ;
+}
+
+.history-modal button{
+    margin-block-start: 1rem;
+    align-self: center;
+    border:2px solid #de5499;
+    color: #de5499;
+    background-color: #f2ebe9;
+    padding-inline: 1rem;
+    padding-block: 0.2rem;
+    margin-inline: 1rem;
+  
+}
+
+
+dialog::backdrop{
+    background-color:  #26414385;
+}

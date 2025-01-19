@@ -1,0 +1,44 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    background-color: #f2ebe9;
+    border-top: 0.8rem solid #e99f4c;
+    
+
+}
+
+footer h2 {
+    display: inline;
+    padding-inline: 1rem;
+    color: #264143dd;
+    text-decoration: underline double 2px #de5499;
+    
+}
+
+.searches-history{
+    display: flex;
+    gap: 1rem;
+    padding-inline: 1rem;
+    text-decoration: underline;
+    color: #264143dd;
+    
+}
+.searches-history div{
+    margin-block-start: 0.5rem;
+    cursor: pointer;
+}
+
+.clear-btn{
+    color: #264143dd;
+    border: 1px solid #de5499;
+    box-shadow: 0px 2px 9px 0px rgba(222,84,153,0.62);
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(222,84,153,0.62);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(222,84,153,0.62);
+}
+
+.clear-btn:hover{
+    box-shadow:none
+}

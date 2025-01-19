@@ -1,0 +1,30 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) minmax(auto, 600px) minmax(20px, 1fr);
+    gap: 2rem;
+}
+
+header {
+    grid-column: 1/4;
+}
+
+.search {
+    grid-column: 2;
+}
+
+.videos-list {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.selected-video {
+    grid-column: 2;
+       
+}
+
+.wikipedia {
+    grid-column: 2;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikitube</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a439765def.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="main-layout" onload="onInit(event)">
+    <header>
+        <h1>Wikitube</h1>
+    </header>
+
+    <section class="search">
+        <form onsubmit="onFindVideos(event)">
+            <input class="search-input" type="text" placeholder="Search">
+            <button class="search-btn fa-solid fa-magnifying-glass" type="submit"></button>
+        </form>
+    </section>
+
+    <section class="videos-list">
+    </section>
+
+    <section class="selected-video">
+    </section>
+
+    <section class="wikipedia">
+    </section>
+
+
+    <footer>
+        <h2>History</h2>
+        <button class="clear-btn" onclick="onOpenModal()">Clear History</button>
+        <section class="searches-history">
+
+        </section>
+    </footer>
+
+    <dialog class="history-modal">
+        <h2>Are you sure you want to clear history?</h2>
+        <div class="dialog-btn">
+            <button onclick="onClearHistory()">YES</button>
+            <button onclick="onCloseModal()">NO</button>
+        </div>
+    </dialog>
+
+    <script src="lib/axios.js"></script>
+    <script src="js/services/storage.sevice.js"></script>
+    <script src="js/services/videoList.service.js"></script>
+    <script src="js/services/wikipedia.service.js"></script>
+    <script src="js/controller.js"></script>
+
+</body>
+
+</html>

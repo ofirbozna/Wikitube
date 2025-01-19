@@ -1,0 +1,34 @@
+.wikipedia{
+   
+    background-color:  #264143dd;
+    color:#f2ebe9 ;
+    margin-block-end: 5rem;
+    
+}
+
+form{
+    justify-self: center;
+    
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-block-end: 2rem;
+    padding: 1rem;
+}
+
+.info-title{
+text-decoration: underline  #de5499;
+}
+
+input{
+    border: 0.2rem solid #e99f4c;
+}
+
+.search-btn{
+border: none;
+color:  #de5499;
+background-color: transparent;
+font-size: 1rem;
+}

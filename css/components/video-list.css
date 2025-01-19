@@ -1,0 +1,22 @@
+.videos-list{
+   background-color: #264143dd; 
+   padding: 1rem;
+   border: 0.2rem solid #e99f4c;
+}
+
+.video-card {
+    display: flex;
+    gap: 1rem;
+    background-color: #f2ebe9;
+    padding: 0.3rem;
+    padding-inline-start: 0.5rem;
+    border: 2px solid   #de5499;
+    border-radius: 2px;
+}
+
+.video-card img {
+    max-width: 70px;
+    aspect-ratio:auto;
+    border: 1px solid #de5499;
+    align-self: start;
+}

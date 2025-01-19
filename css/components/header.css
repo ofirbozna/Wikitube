@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f2ebe9;
+    border-bottom: 0.8rem solid #e99f4c;
+    height: 7rem;
+}
+
+header h1 {
+    padding-inline: 1.5rem;
+    color: #264143dd;
+    text-decoration:underline double 2px #de5499;
+
+}
